@@ -89,21 +89,24 @@ body{
 }
 
 .container__item{
-	max-width: 25%;
+	width: 25%;
 	height: 100%;
 	opacity: 0;
 	animation: slideTop 1s ease forwards;
 	animation-delay: calc(.2s * var(--i));
+	transition: .5s;
 }
 
-.container__item
 
-.container__item:focus{
-	margin-left: 500px;
+
+.container__item:hover{
+	
+	
 }
 
 .container__item:not(:hover){
-	padding: 10px;
+	 padding: 10px; 
+	
 }
 
 
