@@ -22,7 +22,7 @@ body{
 	font-size: 62.5%;
 	font-family: 'Karma', sans-serief;
 	width: 100%;
-	height: 1300px;
+	height: 1100px;
 	
 }
 
@@ -138,6 +138,10 @@ body{
 	animation: slideBottom 1s ease forwards;
 	animation-delay: calc(.1s * var(--i));
 	transition: .2s;
+}
+
+.container__item:not(:hover){
+	padding: 10px;
 }
 
 .container__item-img{
